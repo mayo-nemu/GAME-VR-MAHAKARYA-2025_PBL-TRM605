@@ -1,0 +1,56 @@
+{
+    "name": "ControllerQuest2",
+    "maps": [
+        {
+            "name": "Quest2",
+            "id": "3f025d28-9045-46ac-ab72-fcb93e20d8d4",
+            "actions": [
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "bc99fa0e-2490-4a55-b309-bf83ebaf4153",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec62c050-ed17-4547-b111-38174ddc680f",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78fab248-e27b-486a-a972-309648888574",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d65e785c-dfaa-43f6-9c6c-f9f4dfb6e604",
+                    "path": "<OculusTouchController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
