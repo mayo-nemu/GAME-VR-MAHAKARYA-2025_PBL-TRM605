@@ -41,7 +41,7 @@ public class PariPatroll : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(5f); // Tunggu 5 detik
+            yield return new WaitForSeconds(8f); // Tunggu 5 detik
 
             // Menjatuhkan peluru
             DropBullet();

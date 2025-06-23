@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class TypingEffect : MonoBehaviour
 {
     public TextMeshProUGUI textMeshPro;
-    private float typingSpeed = 0.05f;
+    private float typingSpeed = 0.06f;
     public UnityEvent onTypingDone;  // UnityEvent untuk di-invoke saat mengetik selesai
     public UnityEvent ScriptAudio;  // AudioSource untuk mengetik
     public AudioSource NPCSound;
