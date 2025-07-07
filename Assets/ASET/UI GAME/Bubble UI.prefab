@@ -332,7 +332,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cb4c938d901a29d4f9a125fa1e74ade0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -635,7 +635,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 2287752875265569313}
+  NPCSound: {fileID: 0}
 --- !u!114 &318726971626642578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,7 +982,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 2287752875265569313}
+  NPCSound: {fileID: 0}
 --- !u!114 &7445081407054148809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,7 +1200,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 2287752875265569313}
+  NPCSound: {fileID: 0}
 --- !u!114 &7609652831532673923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1824,7 +1824,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 2287752875265569313}
+  NPCSound: {fileID: 0}
 --- !u!114 &7480105807456404240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2507,7 +2507,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 2287752875265569313}
+  NPCSound: {fileID: 0}
 --- !u!114 &5321179520906944730
 MonoBehaviour:
   m_ObjectHideFlags: 0
