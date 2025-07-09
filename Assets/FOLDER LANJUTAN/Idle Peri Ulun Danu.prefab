@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 5557037315129555075}
   - component: {fileID: 5557037315129555074}
   m_Layer: 0
-  m_Name: Idle Peri Tongkat
+  m_Name: Idle Peri Ulun Danu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
