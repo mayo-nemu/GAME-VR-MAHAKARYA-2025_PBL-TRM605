@@ -1232,8 +1232,6 @@ GameObject:
   - component: {fileID: 6410052460493529094}
   - component: {fileID: 1014778952782723708}
   - component: {fileID: 6881409784078698468}
-  - component: {fileID: 6881409784078698470}
-  - component: {fileID: 6881409784078698471}
   m_Layer: 0
   m_Name: Dark Spirit Bisa Ngejar
   m_TagString: Untagged
@@ -1298,47 +1296,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9267813, y: 1.0390129, z: 0.9294928}
   m_Center: {x: 0.03660935, y: -0.7412586, z: 0.035253614}
---- !u!114 &6881409784078698470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6034476521574742716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d65b9ffbf4643c4db7eb4bb007c6b77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 20
-  currentHealth: 0
-  attackDamage: 2
-  attackRange: 2
-  maxChaseRange: 3
-  chaseSpeed: 1
-  attackCooldown: 2
---- !u!195 &6881409784078698471
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6034476521574742716}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 1.5
-  m_WalkableMask: 1
-  m_ObstacleAvoidanceType: 4
 --- !u!1 &6121463029456090505
 GameObject:
   m_ObjectHideFlags: 0

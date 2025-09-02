@@ -38,6 +38,25 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player health: " + currentHealth);
     }
 
+    public void TakeHealth(int healthy)
+    {
+        currentHealth += healthy;
+
+        // Ensure health doesn't drop below zero
+        currentHealth = Mathf.Max(currentHealth, 0);
+
+        UpdateHealthBar();
+
+        // Check if health drops to zero
+        if (currentHealth == 0)
+        {
+            Die();
+        }
+
+        // Debug message to show the current health after taking damage
+        Debug.Log("Player health: " + currentHealth);
+    }
+
     private void UpdateHealthBar()
     {
         // Update health bar fill amount based on current health and max health

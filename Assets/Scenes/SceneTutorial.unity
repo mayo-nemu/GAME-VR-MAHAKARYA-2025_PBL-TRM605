@@ -8671,6 +8671,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
     - target: {fileID: 2567661894519943143, guid: be92a2b80e166254bb57400ea9abe573,
         type: 3}
       propertyPath: m_Enabled
@@ -11933,6 +11938,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
     - target: {fileID: 2567661894519943143, guid: be92a2b80e166254bb57400ea9abe573,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -17835,6 +17845,11 @@ PrefabInstance:
       value: Selamat! Kamu telah menyelesaikan tutorial dasar. Sekarang, waktunya
         untuk memilih pulau dan memulai petualanganmu.
       objectReference: {fileID: 0}
+    - target: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
     - target: {fileID: 2567661894519943143, guid: be92a2b80e166254bb57400ea9abe573,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -18270,12 +18285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b00ac5a8d8257df40aba00ed03ae2650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &355527476 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
-    type: 3}
-  m_PrefabInstance: {fileID: 355527471}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &355527477 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7790922364457475222, guid: be92a2b80e166254bb57400ea9abe573,
@@ -28340,7 +28349,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 355527476}
+  NPCSound: {fileID: 0}
 --- !u!114 &590658253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29784,6 +29793,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &610481412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29814,6 +29826,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!1001 &611104877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38052,6 +38067,9 @@ MonoBehaviour:
   WhenMoveDone:
     m_PersistentCalls:
       m_Calls: []
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &810764252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50783,6 +50801,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &1098265915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50825,6 +50846,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &1098265916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53816,6 +53840,11 @@ PrefabInstance:
       propertyPath: m_text
       value: Sekarang kamu akan memanjat dengan menggunakan monkey bar untuk menyebrang.
       objectReference: {fileID: 0}
+    - target: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
     - target: {fileID: 5451917061801558440, guid: be92a2b80e166254bb57400ea9abe573,
         type: 3}
       propertyPath: m_text
@@ -55060,6 +55089,9 @@ MonoBehaviour:
   WhenMoveDone:
     m_PersistentCalls:
       m_Calls: []
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &1179171971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58056,6 +58088,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
     - target: {fileID: 2567661894519943143, guid: be92a2b80e166254bb57400ea9abe573,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -64330,6 +64367,9 @@ MonoBehaviour:
   WhenMoveDone:
     m_PersistentCalls:
       m_Calls: []
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!1001 &1380725303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68363,7 +68403,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 355527476}
+  NPCSound: {fileID: 0}
 --- !u!114 &1458818398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70077,7 +70117,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 355527476}
+  NPCSound: {fileID: 0}
 --- !u!114 &1494804387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70246,6 +70286,9 @@ MonoBehaviour:
   WhenMoveDone:
     m_PersistentCalls:
       m_Calls: []
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &1496495674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72432,7 +72475,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  NPCSound: {fileID: 355527476}
+  NPCSound: {fileID: 0}
 --- !u!114 &1535227833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79066,6 +79109,9 @@ MonoBehaviour:
   WhenMoveDone:
     m_PersistentCalls:
       m_Calls: []
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &1678682869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79108,6 +79154,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!114 &1678682870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87521,6 +87570,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
     - target: {fileID: 2567661894519943143, guid: be92a2b80e166254bb57400ea9abe573,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -91059,6 +91113,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isShaking: 0
+  shakeRadius: 0.009
+  shakePower: 0.6
 --- !u!4 &1962858819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 45b0fcf96f0e4574fb2900534ddef012,
@@ -99551,6 +99608,11 @@ PrefabInstance:
       value: Halo! Selamat datang di Vokasi Land! Aku adalah Peri Bunga, dan aku
         akan menjadi pemandu kamu di dunia ini.
       objectReference: {fileID: 0}
+    - target: {fileID: 2287752875265569313, guid: be92a2b80e166254bb57400ea9abe573,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f75219bec90da80488211957710c6516, type: 3}
     - target: {fileID: 2567661894519943143, guid: be92a2b80e166254bb57400ea9abe573,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
