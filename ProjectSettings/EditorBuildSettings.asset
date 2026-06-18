@@ -9,43 +9,43 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/SceneProlog.unity
+    path: Assets/_Project/Scenes/SceneProlog.unity
     guid: 00e41e55af7a9234990bb7067294bc8c
   - enabled: 1
-    path: Assets/Scenes/SceneTutorial.unity
+    path: Assets/_Project/Scenes/SceneTutorial.unity
     guid: ae187c5e200e71648959fcaa1792c923
   - enabled: 1
-    path: Assets/Scenes/LobbyGame.unity
+    path: Assets/_Project/Scenes/LobbyGame.unity
     guid: f7c3ffc9a4891bd45b332c520b197ef9
   - enabled: 1
-    path: Assets/Scenes/Borobudur.unity
+    path: Assets/_Project/Scenes/Levels/Borobudur.unity
     guid: 6ff41282eafcb154f81d00a7970b29aa
   - enabled: 1
-    path: Assets/Scenes/Merapi.unity
+    path: Assets/_Project/Scenes/Levels/Merapi.unity
     guid: d1d05df827892a44ba9d268d044dd66d
   - enabled: 1
-    path: Assets/Scenes/Gadang.unity
+    path: Assets/_Project/Scenes/Levels/Gadang.unity
     guid: 14563484c55aa6f4f86514396b624fe1
   - enabled: 1
-    path: Assets/Scenes/GWK.unity
+    path: Assets/_Project/Scenes/Levels/GWK.unity
     guid: 687dadc1b38dc5649ac5a2655a3b4310
   - enabled: 1
-    path: Assets/Scenes/Honai.unity
+    path: Assets/_Project/Scenes/Levels/Honai.unity
     guid: bb1d6e462c632f9439bcb743425114c7
   - enabled: 1
-    path: Assets/Scenes/KotaTua.unity
+    path: Assets/_Project/Scenes/Levels/KotaTua.unity
     guid: 8d7b066f20c00064fab23b3e1a417509
   - enabled: 1
-    path: Assets/Scenes/Monas.unity
+    path: Assets/_Project/Scenes/Levels/Monas.unity
     guid: 46d5ef64b3e8d2546a7bcc38530daf91
   - enabled: 1
-    path: Assets/Scenes/Prambanan.unity
+    path: Assets/_Project/Scenes/Levels/Prambanan.unity
     guid: fb8d41b043fffc14ea7b0c012855a3fb
   - enabled: 1
-    path: Assets/Scenes/Toraja.unity
+    path: Assets/_Project/Scenes/Levels/Toraja.unity
     guid: 48974cec2a7535b41a0660f9bfbbcfee
   - enabled: 1
-    path: Assets/Scenes/UlunDanu.unity
+    path: Assets/_Project/Scenes/Levels/UlunDanu.unity
     guid: c0f5a998211477546bb9c2accfdc0129
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 081fb495c7a363b45a20678392f70eab,
